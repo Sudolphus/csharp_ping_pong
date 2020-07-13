@@ -40,7 +40,7 @@ Open via Bash/GitBash:
 
 ## Known Bugs
 
-_None currently_
+_Currently implodes if you try to enter an input that isn't a number_
 
 ## Support and contact details
 

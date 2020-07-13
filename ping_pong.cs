@@ -11,7 +11,7 @@ namespace PingPong
       Console.WriteLine("How high do you want to go [enter an integer 1 or greater]:");
       string stringNumber = Console.ReadLine();
       int maxNumber = int.Parse(stringNumber);
-      if (maxNumber < 1 || maxNumber == Double.NaN)
+      if (maxNumber < 1)
       {
         Console.WriteLine("Please enter a valid number!");
         Main();

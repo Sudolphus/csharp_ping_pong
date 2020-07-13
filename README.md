@@ -1,45 +1,46 @@
-# _{Application Name}_
+# _C# Ping Pong_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Ping Pong in C#, 7/13/20_
 
-#### By _**Micheal Hansen**_
+#### By _**Micheal Hansen & Spencer Moody**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_A game of ping pong played in C#_
 
 ## Specifications
 
 | Spec | Input | Output |
 | :--- | :---: | ---: |
-
+| User enters a number to count to | "5" | None |
+| Program creates a list of numbers | None | {1, 2, 3, 4, 5} |
+| Program replaces all numbers divisible by 15 | None | {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, Ping-Pong} |
+| Program replaces all numbers divisible by 3 | None | {1, 2, ping, 4, 5} |
+| Program replaces all numbers divisible by 5 | None | {1, 2, ping, 4, pong} |
+| Program prints the contents of the list to the console | None | "1, 2, ping, 4, pong" |
 
 ## Setup/Installation Requirements
 
 Software Requirements
-1. Internet browser
+1. .NET 
 2. A code editor like VSCode or Atom to view or edit the codebase.
 
 Open by downloading:
-1. Download this repository onto your computer by clicking the 'clone or download button'
-2. Double click index.html to open it in your web browser
+1. Download this repository onto your computer by clicking the 'clone or download button'.
+2. Navigate into the directory in your command line.
+3. Open the codebase in your editor of choice to edit.
+4. Alternately, run `dotnet run` to run the program.
 
 Open via Bash/GitBash:
 1. Clone this repository onto your computer:
 `git clone {PUT_REPO_HERE}`
 2. Navigate into the `{NAME_OF_DIRECTORY}` directory in Visual Studio Code or preferred text editor
 `code .`
-3. Get the necessary packages `npm install`.
-4. Compile the code `npm run build`.
-5. Open index.html in Chrome or preferred browser:
-`open dist/index.html`
-
-#### To see my live website go to [GH_PAGES_LINK_HERE](https://sudolphus.github.io/Portfolio/)!
-
+3. Run the code with `dotnet run`
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_None currently_
 
 ## Support and contact details
 
@@ -47,15 +48,11 @@ _Please reach out through my GitHub account._
 
 ## Technologies Used
 
-* _HTML_
-* _CSS (including Bootstrap)_
-* _JavaScript (including jQuery)_
-* _VSCode_
-* _Node.js (including webpack)_
+* _.NET_
 
 ### License
 
-Copyright (c) 2020 **_Micheal Hansen_**
+Copyright (c) 2020 **_Micheal Hansen & Spencer Moody_**
 
 *Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
